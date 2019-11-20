@@ -20,7 +20,6 @@ int main() {
     t2 = GetTickCount();
     printf("Insert for %d times:%d ms,Average:%lf ms\n",M,t2-t1,(t2-t1)*1.0/M);
     bt.PrintLeaves();
-
     //查询测试
     printf("----------------------search test------------------\n");
     t1 = GetTickCount();
